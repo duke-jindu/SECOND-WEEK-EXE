@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace school_oop.entity
+namespace school_oop
 
 {
 

@@ -1,9 +1,7 @@
 ﻿using System;
 
-using school_oop.entity;
 
-
-namespace school_oop.teacher
+namespace school_oop
 {
     class Teacher : Entity
     {
@@ -15,7 +13,7 @@ namespace school_oop.teacher
 
         public void teacher_info()
         {
-            string Details = $"Teacher's Name : {this.Name} \nNumber of course assigned : {this.NumberOfCourses}";
+            string Details = $"Teacher's Name : {Name} \nNumber of course assigned : {NumberOfCourses}";
             Console.WriteLine(Details);
             Console.WriteLine(" ");
             Console.WriteLine("****************************************");

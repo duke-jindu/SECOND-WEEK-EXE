@@ -1,10 +1,9 @@
 ﻿//using school;
-using school_oop.entity;
 
 //using school_oop.entity;
 using System;
 
-namespace school_oop.courses
+namespace school_oop
 {
     class Courses : Entity
     {
@@ -18,8 +17,8 @@ namespace school_oop.courses
 
         public void Courses_Info()
         {
-            string Detail = $"Course name : {this.Name} \nCourse completion : {this.course_completed}% \n" +
-                $"Classes Taught : {this.Times_Taught} in a week";
+            string Detail = $"Course name : {Name} \nCourse completion : {course_completed}% \n" +
+                $"Classes Taught : {Times_Taught} in a week";
             Console.WriteLine(Detail);
         }
     }

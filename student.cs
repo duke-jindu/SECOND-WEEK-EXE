@@ -1,8 +1,6 @@
-﻿using school_oop.entity;
+﻿using System;
 
-using System;
-
-namespace school_oop.student
+namespace school_oop
 {
 
     class Student : Entity
@@ -15,7 +13,7 @@ namespace school_oop.student
 
         public void student_info()
         {
-            string Details = $"student's Name : {this.Name} \nstudent Unique-number : {this.RegNumber}";
+            string Details = $"student's Name : {Name} \nstudent Unique-number : {RegNumber}";
             Console.WriteLine(Details);
             Console.WriteLine(" ");
             Console.WriteLine("****************************************");
